@@ -1,0 +1,96 @@
+/* menghapus CSS di browser */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkblue;
+    ;
+}
+
+
+/* .belakang {
+    width: 900px;
+    height: 600px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.belakang .gambar-foto img {
+    width: 500px;
+    float: left;
+}
+
+.belakang .data-diri {
+    float: left;
+} */
+
+.container {
+    background-color: #ffffff;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.profil {
+    float: left;
+    width: 50%;
+}
+
+.profil img {
+    width: 400px;
+    margin: 40px 0 0 60px;
+    border-radius: 10px;
+}
+
+.profil img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.profil .kata {
+    margin: 40px 40px 0 0;
+}
+
+.profil .kata h1 {
+    font-size: 40px;
+}
+
+.profil .kata h4 {
+    text-align: center;
+    line-height: 50px;
+    color: darkblue;
+}
+
+.profil .kata p {
+    text-align: justify;
+}
+
+.profil .kata h3 {
+    margin-top: 20px;
+    color: darkblue;
+}
+
+.profil .kata ul {
+    list-style: none;
+}
+
+.footer {
+    background: whitesmoke;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer .isi-footer .github:hover {
+    color: rgb(47, 44, 236);
+}
+
+.coba {
+    padding: 20px 10px 10px 20px;
+}
